@@ -1,0 +1,24 @@
+#TITLE=lua
+; EditPlus Auto-completion file v1.0 written by ES-Computing.
+; This file is provided as a default auto-completion file for lua.
+
+#CASE=y
+
+#T=if
+if(^!)
+then
+    
+end
+#T=for
+for ^! do
+    
+end
+#T=while
+while(^!)
+do
+   
+end
+#T=repeat
+repeat
+   ^!
+until()

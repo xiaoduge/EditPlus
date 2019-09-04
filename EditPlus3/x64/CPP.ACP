@@ -1,0 +1,119 @@
+#TITLE=C/C++
+; EditPlus Auto-completion file v1.0 written by ES-Computing.
+; This file is provided as a default auto-completion file for C/C++.
+
+#CASE=y
+
+#T=if
+if (^!)
+{
+}
+#T=else if
+else if (^!)
+{
+}
+#T=else
+else
+{
+	^!
+}
+#T=while
+while (^!)
+{
+}
+#T=for
+for (^!; ; )
+{
+}
+#T=switch
+switch (^!)
+{
+case :
+
+}
+#T=do
+do
+{
+}
+while (^!);
+#T=class
+class ^!
+{
+public:
+
+protected:
+
+private:
+
+};
+
+#T=struct
+struct ^!
+{
+};
+
+#T=enum
+enum ^!
+{
+};
+
+#T=union
+union ^!
+{
+};
+
+#T=try
+try
+{
+	^!
+}
+catch ()
+{
+}
+#T=__cp
+__cplusplus
+#T=template
+template <typename ^!>
+#T=stdcout
+std::cout << ^!
+#T=stdcin
+std::cin >> ^!
+#T=stdendl
+std::endl;
+#T=stdthread
+std::thread
+#T=stdfunction
+std::function<^!>
+#T=stdvector
+std::vector<^!>
+#T=stdstring
+std::string ^!
+#T=stdlist
+std::list<^!>
+#T=stdforward_list
+std::forward_list<^!>
+#T=stddeque
+std::deque<^!>
+#T=stdqueue
+std::queue<^!>
+#T=stdpriority_queue
+std::priority_queue<^!>
+#T=stdstack
+std::stack<^!>
+#T=stdmap
+std::map<^!>
+#T=stdmultimap
+std::multimap<^!>
+#T=stdset
+std::set<^!>
+#T=stdmultiset
+std::multiset<^!>
+#T=stdunordered_map
+std::unordered_map<^!>
+#T=stdunordered_multimap
+std::unordered_multimap<^!>
+#T=stdunordered_set
+std::unordered_set<^!>
+#T=stdunordered_multiset
+std::unordered_multiset<^!>
+#
