@@ -5,22 +5,16 @@
 #CASE=y
 
 #T=def
-def ^! ():
+def ^!():
 	
 #T=class
 class ^!:
 	
 #T=while
 while ^!:
-	if expression: break
-	if expression: continue
-else:
 	
 #T=for
 for ^! in :
-	if expression: break
-	if expression: continue
-else:
 	
 #T=try
 try:
