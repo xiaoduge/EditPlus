@@ -26,6 +26,8 @@ attribute
 uniform
 varying
 invariant
+precise
+subroutine
 layout
 location
 void	
