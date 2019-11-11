@@ -126,10 +126,12 @@ undef
 #
 
 #KEYWORD=Functions and Methods
+main
 #
 
 #KEYWORD=Predifined classes
 std
+array
 string
 vector
 list
